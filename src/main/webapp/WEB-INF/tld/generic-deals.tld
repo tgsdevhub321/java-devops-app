@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+  
+  <tlib-version>1.0</tlib-version>
+  <short-name>UtilityEL</short-name>
+  <uri>/WEB-INF/tld/generic-deals.tld</uri>
+  
+  <function>
+    <name>getDeals</name>
+    <function-class>com.travel.utility.DealsUtility</function-class>
+    <function-signature>
+      java.util.List getDeals(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.http.HttpServletRequest)
+    </function-signature>
+  </function>
+  
+</taglib>

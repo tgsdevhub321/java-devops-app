@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+        *{
+            font-family: "Poppins", sans-serif;
+        }
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1270px;
+    }
+}
+body{
+    background-color: #F9F9F9;
+}
+
+/* ..........................header start.......................... */
+
+#mainheader {
+    padding: 8px 0px;
+    box-shadow: 0 0 6px #0000004D;
+    background: rgb(10, 45, 114);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+#mainheader .logo img {
+    width: 163px;
+}
+#mainheader .tfn-number {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+#mainheader .tfn-number a {
+    font-size: 18px;
+    color: #FFf;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px;
+}
+.mbn_number {
+    padding-right: 0px;
+    font-size: 18px;
+    color: #3C78F1;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    line-height: 20px;
+    
+    padding-top: 0px;
+}
+.New-country-flag {
+    margin: 1px 0px 5px 15px;
+    cursor: pointer;
+    width: 80px;
+}
+.New-sub_header_link {
+    color: #fff;
+    font-size: 15px !important;
+    font-weight: bold;
+    background-color: #149db2;
+    padding: 7px 8px;
+    margin-top: 2px;
+}
+.New-sub_header_link img {
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle !important;
+}
+/* ..........................header end.......................... */
+
+
+.p-secton-rt {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 4px;
+    margin-top: 18px;
+}
+.p-secton-dt {
+    background-color: #FF6600;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 4px 4px 0 0;
+}
+.p-secton-dt p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.p-secton-dt img {
+    margin: 0 7px;
+}
+.c-kgb8{
+    font-weight: 600;
+    text-decoration: underline; 
+}
+.c-kgb8 span{
+    color: #ff6600;
+    text-decoration: underline;
+}
+.c-for{
+    font-size: 18px;
+    color: #303030;
+}
+.c-for1{
+    font-size: 24px;
+    color: #303030;
+}
+.c-jr{
+    background-color: #F2F2F2;
+    font-weight: 500;
+    color: #303030;
+}
+.c-jr1{
+    color: #303030;
+}
+.clod-e {
+    border-bottom: 1px dashed #B6B6B6;
+}
+.clrg2 {
+    font-size: 15px;
+    color: #545454;
+    font-weight: 400;
+}
+.clrg1 {
+    color: #303030;
+    font-size: 15px;
+}
+.clod-e2 {
+    background-color: #FF6600;
+    color: white !important;
+    font-size: 14px;
+}
+.p-ur74 {
+    font-size: 11px;
+    color: #545454;
+    font-weight: 300;
+}
+.font-500 {
+    font-weight: 500;
+}
+.p-secton-dt2 {
+    background-color: #DDDDDD;
+    padding: 6px 10px;
+    color: #303030;
+    border-radius: 4px 4px 0 0;
+}
+.p-secton-dt2 p {
+    font-weight: 600;
+    color: #303030;
+}
+.p-secton-dt2 img {
+    margin: 0 7px;
+}
+.c-hnf78 {
+    font-size: 13px;
+    padding: 10px 56px;
+    color: #3C3C3C;
+}
+.c-lws8{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3C3C3C;
+}
+.cli-kd{
+    color: #3C3C3C;
+}
+.c-hf7{
+    font-size: 14px;
+    color: #545454;
+}
+.dr-rf{
+    color: #3C3C3C;
+}
+.rela{
+    position: relative;
+}
+.fotrd{
+    font-size: 12px;
+    color: #3C3C3C;
+}
+footer{
+    margin-top: 25px;
+}
+.c-bure{
+    font-size: 13px;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    
+    #mainheader {
+        padding: 6px 0px;
+        background: rgb(10, 45, 114);
+    }
+    #mainheader .tfn-number {
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    #mainheader .tfn-number a {
+        font-size: 15px;
+    }
+    .New-country-flag {
+        display: none !important;
+    }
+    .c-jr1 {
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .c-jr {
+        font-size: 10px;
+    }
+    .c-kgb8 {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    .c-for {
+        font-size: 16px;
+    }
+    .c-for1 {
+        font-size: 23px;
+    }
+    .clrg1 {
+        font-size: 13px;
+    }
+    .clrg2 {
+        font-size: 13px;
+    }
+    .clod-e2 {
+        font-size: 13px;
+    }
+}

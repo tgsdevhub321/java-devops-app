@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0 ;
+}
+@media (min-width: 1400px) {
+    .sftw{
+        max-width: 890px !important;
+    }
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.confirmheader-inner{
+    background: linear-gradient(215.93deg, #E8EFFF -3.79%, #FFFFFF 78.99%);
+    padding: 13px ;
+}
+.bookingid{
+    color: #ff3f2d ;
+    font-size: 16px ;
+    font-weight: 500 ;
+}
+.headertop{
+    font-size: 14px ;
+    font-weight: 400 ;
+    color: #000000;
+    .holiday{
+        font-size: 16px ;
+        font-weight: 500 ;
+    }
+}
+.printer{
+     position: absolute ;
+    top: 50% ;
+    right: 15px ;
+    transform: translateY(-50%);
+}
+.flticontxt{
+    padding: 15px 0;
+
+}
+.fltdetails{
+    font-size: 22px ;
+    font-weight: 500 ;
+    color: #1852a6;
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: center ;
+    gap: 10px ;
+    width: auto;
+    img{
+        min-width:  26px ;
+        max-width: 36px ;
+    }
+}
+.statustxt{
+     font-size: 18px ;
+    font-weight: 400 ;
+    color: #000000;
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: center ;
+    width: auto;
+    img{
+        min-width:  20px ;
+        max-width: 20px ;
+        margin-right: 10px ;
+    }
+    span{
+        font-weight: 500 ;
+        color: #FE3842 ;
+    }
+}
+
+
+
+/* departure-section */
+
+.depart-top{
+    background: #F3F6FF99;
+    padding: 15px ;
+}
+.departurename{
+    font-size: 18px ;
+    font-weight: 600 ;
+    color: #1852a6 ;
+}
+.departure-main{
+border: 1px solid #BFBABA;
+box-shadow: 4px 4px 12.9px 0px #00000040;
+overflow: hidden;
+border-radius: 15px ;
+margin-bottom: 30px ;
+}
+.departbtmsec{
+    padding: 15px ;
+}
+.confirmation{
+    p{
+        background-color: #1852a6 ;
+        padding: 5px 15px ;
+        color: white ;
+        font-size: 14px ;
+        font-weight: 400 ;
+        width: fit-content;
+        border-radius: 8px ;
+    }
+}
+.airlinename {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1852a6;
+}
+.airline-code {
+    color: #323232;
+    font-size: 14px;
+    font-weight: 400;
+}
+.airlineinner {
+    padding-left: 25px;
+}
+.depairname {
+    .depnew {
+        font-size: 14px;
+        font-weight: 400;
+        color: #303030;
+    }
+}
+.deptime {
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    line-height: 32px;
+}
+.depday {
+    font-size: 14px;
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 5px ;
+}
+.airportname {
+    font-size: 12px;
+    font-weight: 400;
+    color: #323232;
+}
+.bagtxt {
+    p {
+        font-size: 10px;
+        font-weight: 400;
+        color: #1852a6;
+    }
+}
+.timeline {
+    width: 100%;
+    height: 40px;
+}
+.timewithclock {
+    background-color: #ffffff;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #1852a6;
+    }
+}
+.economytxt {
+    p {
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        color: #1852a6;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #1852a6;
+    }
+}
+.layover-sec {
+    width: 100%;
+    height: 42px;
+    border-radius: 15px;
+    background: linear-gradient(119.55deg, rgba(246, 34, 82, 0.4) -350.32%, #FFFFFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #1852a6;
+    }
+}
+.verticalline {
+    width: 1px;
+    height: 90%;
+    top: 5%;
+    left: calc(100% - 73.5%);
+    border-left: 2px dotted #323232;
+        &:before {
+        background-color: #323232;
+        border-radius: 20px;
+        content: "";
+        height: 7px;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        transform: translate(-72%, 0%);
+        width: 7px;
+    }
+        &:after {
+        background-color: #323232;
+        border-radius: 20px;
+        content: "";
+        height: 7px;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: translate(-62%, -50%);
+        width: 7px;
+    }
+}
+.pink-color {
+    color: #ff3f2d !important;
+}
+.deptime {
+    sup {
+        font-size: 12px;
+        font-weight: 600;
+        color: #ff3f2d;
+        top: -1.1em;
+    }
+}
+
+
+
+
+
+
+
+/* traveller-details */
+.top-details{
+    margin-bottom: 10px ;
+    p{
+        font-size: 22px ;
+        font-weight: 500 ;
+        color: #1852a6 ;
+        display: flex ;
+        justify-content: flex-start ;
+        align-items: center ;
+        gap: 10px ;
+    }
+}
+.traveller-details{
+    border: 1px solid #BFBABA;
+    box-shadow: 4px 4px 12.9px 0px #00000040;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+table th{
+    padding: 15px;
+    background-color: #F3F6FF99 ;
+    p{
+        font-size: 14px ;
+        font-weight: 500 ;
+        color: #565656 ;
+        text-align: center;
+    }
+}
+table td{
+    padding: 15px ;
+    .traveller-name{
+    font-size: 16px ;
+    font-weight: 500 ;
+    color: #1852a6;
+   }
+   .traveller-type{
+    font-size: 14px ;
+    font-weight: 500 ;
+    color: #515151;
+    text-align: center;
+   }
+}
+
+
+
+
+/* billing-details */
+.phonenumber{
+    padding: 15px ;
+    border-bottom: 1px solid #9E9E9E;
+    .number{
+        font-size: 14px ;
+        font-weight: 500 ;
+        color: #565656 ;
+        span{
+            font-size: 16px ;
+            font-weight: 500 ;
+            color: #1852a6 ;
+        }
+      }
+}
+.faresummary{
+    p{
+        font-size: 18px ;
+        font-weight: 400 ;
+        color: #1852a6 ;
+        padding: 15px ;
+        display: flex ;
+        justify-content: flex-start;
+        align-items: center ;
+        gap: 5px    ;
+    }
+}
+.detailsprice{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 15px ;
+    background-color: #F3F6FF99 ;
+    p{
+        font-size: 14px ;
+        font-weight: 500 ;
+        color: #1852a6;
+    }
+}
+.adult-detail{
+     display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    padding:10px 15px ;
+    .adult{
+        font-size: 16px ;
+        font-weight: 500 ;
+        color: #323232 ;
+    }
+    .adultprice{
+        font-size: 16px ;
+        font-weight: 500 ;
+        color: #1852a6 ;
+    }
+}
+.grand-total{
+     display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 15px ;
+    background-color: #E6EBFD;
+    .grand{
+        font-size: 18px ;
+        font-weight: 500 ;
+        color: #1852a6 ;
+    }
+    
+}
+.conditions-txt{
+    padding: 15px ;
+}
+.conditionsheading{
+    font-size: 14px ;
+    font-weight: 500 ;
+    color: #515151 ;
+}
+.termlist{
+    padding-left: 15px ;
+    li{
+        font-size: 12px ;
+        font-weight: 400 ;
+        color: #515151;
+        margin-bottom: 10px ;
+        span{
+            font-weight: 600 ;
+        }
+      
+    }
+}
+.airnametop{
+    display: flex ;
+    justify-content: flex-end;
+    width: 100% ;
+    height: 100% ;
+}
+.airlinetxt{
+    text-align: center;
+}
+
+.bag-top{
+    gap: 20px ;
+}
+
+@media screen and (max-width:768px) {
+    .headertop {
+      font-size: 12px;
+      .holiday {
+        font-size: 13px;
+       }
+    }
+    .bookingid {
+    font-size: 14px;
+   }
+   .fltdetails {
+    font-size: 12px;
+   }
+   .statustxt {
+    font-size: 12px;
+    img {
+        min-width: 14px;
+        max-width: 14px;
+        margin-right: 5px;
+    }
+   }
+    .verticalline{
+        display: none ;
+    }
+    .airnametop{
+        width: 50% ;
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+    .airlinenamesec{
+        gap: 10px ;
+    }
+    .airlinetxt{
+        text-align: left ;
+    }
+    .confirmation {
+        position: absolute;
+        top: 15px  ;
+        right: 10px ;
+    p {
+        font-size: 12px;
+        padding: 5px ;
+    }
+    }
+    .departbtmsec{
+        position: relative ;
+        padding: 10px;
+    }
+    .airlineinner{
+        padding-left: 0 ;
+    }
+    .timeline{
+        width: 100% ;
+        img{
+            width: 100% ;
+        }
+    }
+    .clock{
+        min-width: 7px ;
+        max-width: 7px ;
+        height: 7px ;
+    }
+    .printer {
+        top: 110% ;
+        right: 10px ;
+        transform: translateY(0);
+    }
+    .departurename {
+    font-size: 12px;
+    }
+    .depairname {
+    .depnew {
+        font-size: 10px;
+    }
+    .deptime {
+    font-size: 20px;
+    line-height: 25px ;
+    }
+    .depday {
+       font-size: 10px;
+       margin-bottom: 0 ;
+    }
+    .airportname{
+        font-size: 10px ;
+    }
+}
+.bagimg{
+    min-width: 10px;
+    max-width: 25px;
+    height: 18px;
+    img{
+        width: 100% ;
+    }
+}
+.bag-top{
+    gap: 5px !important;
+}
+.timewithclock {
+    p {
+        font-size: 9px;
+        white-space: nowrap ;
+    }
+}
+.bagtxt {
+    p {
+        font-size: 8px;
+        font-weight: 400;
+        color: #1852a6;
+    }
+}
+.economytxt {
+    p {
+        font-size: 11px;
+    }
+}
+.layover-sec {
+    p {
+        font-size: 12px;
+    }
+}
+.top-details {
+    p {
+        font-size: 12px;
+        gap: 5px ;
+        img{
+            width: 22px ;
+        }
+    }
+}
+table th {
+    padding: 10px 6px;
+    p {
+        font-size: 10px;
+    }
+}
+table td {
+    padding: 10px 6px;
+    .traveller-name {
+        font-size: 10px;
+    }
+        .traveller-type {
+        font-size: 10px;
+        font-weight: 400 ;
+    }
+}
+.phonenumber {
+    .number {
+        font-size: 10px;
+        span{
+            font-size: 10px ;
+        }
+    }
+}
+.faresummary{
+    p{
+        font-size: 12px ;
+        img{
+            width: 22px ;
+        }
+    }
+}
+.adult-detail {
+    .adult {
+        font-size: 12px;
+    }
+        .adultprice {
+        font-size: 12px;
+    }
+}
+.grand-total {
+        box-shadow: 4px 4px 12.9px 0px #00000040;
+    .grand {
+        font-size: 14px;
+    }
+}
+.flticontxt{
+    margin-top: 20px ;
+}
+.airlinename {
+    font-size: 14px;
+    line-height: 14px ;
+}
+.termlist{
+    li{
+          &::marker{
+            color: #1852a6 ;
+        }
+    }
+}
+.airline-code{
+    font-size: 11px;
+}
+}

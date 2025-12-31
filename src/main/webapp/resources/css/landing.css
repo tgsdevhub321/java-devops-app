@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"); 
+
+* {
+  box-sizing: border-box;
+  padding: 0 ;
+  margin: 0 ;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #FBFCFF;
+}
+img{
+    object-fit: cover;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+@font-face {
+  font-family: 'Windhavi';
+  src: url('fonts/f24q3204-windhavi-windhavi-regular-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* banner-down-slide-start */
+.one-land-txt{
+    width: 100% ;
+    height: 100% ;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    p{
+         font-family: 'Windhavi';
+        font-size: 36px ;
+        font-weight: 600 ;
+        color: #323232 ;
+    }
+}
+.slide-city-name{
+    bottom: 10px ;
+    left: 0 ;
+    right: 0 ;
+    margin: auto ;
+    p{
+        font-size: 20px ;
+    font-weight: 400 ;
+    color: #FFFFFF;
+    text-align: center;
+    }
+}
+  .slide4 .item{
+     box-shadow: -5px 5px 5px 0px #00000059;
+      height: 100% ;
+  }
+    .slide4 .owl-stage-outer{
+      height: 100% ;
+  }
+  .slide4 .owl-stage-outer {
+    padding: 20px 0;
+}
+.slide4 .owl-nav button{
+      width: 45px;
+      height: 90px;
+      border-radius: 50px 0 0 50px;
+      background: #FFFFFF !important;
+      box-shadow: 0px 1px 3.4px 2px #00000026;
+  
+  }
+  .slide4 .owl-nav button.owl-prev{
+      position: absolute;
+      left: 0px ;
+      display: none ;
+  }
+  .slide4 .owl-nav button.owl-next{
+      position: absolute;
+      right: 0px ;
+  }
+
+  .banner-down-slide{
+    margin-top:-80px;
+  }
+  .slide4 .slider-img{
+    img{
+        border-radius: 10px ;
+        overflow: hidden;
+    }
+  }
+
+
+  /* divine-section */
+
+  .divine-heading{
+    font-size: 28px ;
+    font-weight: 600 ;
+    margin-bottom: 20px ;
+  }
+  .divine-txt{
+    p{
+        font-size: 16px ;
+        font-weight: 400 ;
+        color: #000000 ;
+        text-align: justify;
+    }
+  }
+.divine-img{
+    img{
+        width: 100% ;
+    }
+}
+.wonder-inner{
+    background-image: url(../../resources/images/landingpage/mindfulness_yoga.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    padding: 40px 0;
+    height: 705px ;
+}
+.experience{
+    color: #FFFFFF ;
+}
+.travel-txt{
+    p{
+        font-size: 18px ;
+        font-weight: 400 ;
+        color: #FFFFFF;
+        margin-bottom: 85px ;
+        span{
+            font-weight: 600 ;
+        }
+    }
+}
+.travel-place{
+    font-size: 17px ;
+    font-weight: 400 ;
+    color: #FFFFFF;
+    width: 140px ;
+}
+.travel-sec-main{
+    padding: 0 20px ;
+}
+.travel-sec-inner{
+    width: 75% ;
+}
+.mid-line{
+    display: flex; 
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.mid-line{
+    height: 80%;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+.mid-line:after{
+    width: 2px;
+    height: 98%;
+    position: absolute !important;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-left: 2px solid white;
+    content: '';
+    z-index: -1;
+}
+
+
+
+/* rev-slider */
+.slick-prev{
+    display: none !important;
+}
+.slick-slider {
+  margin-left: -12%;
+  margin-right: -12%;
+}
+
+.rev_slider .slick-list {
+  padding-top: 0px !important;
+  padding-bottom: 30px !important;
+  padding-left: 39.5% !important;
+  padding-right: 0% !important;
+}
+
+.rev_slider .slick-dots {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.rev_slider .slick-track {
+  max-width: 100%!important;
+  transform: translate3d(0, 0, 0)!important;
+  perspective: 100px;
+}
+
+.slick-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  width: auto !important;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1s, opacity 1s;
+}
+
+.slick-snext,
+.slick-sprev,
+.slick-snext2,
+.slick-sprev2{
+  display: block;
+}
+
+.slick-current {
+  opacity: 1;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+
+.slick-snext {
+ opacity: 1;
+ transform: translateX(calc(100% - 70%)) scale(0.9);
+ z-index: 10;
+}
+.slick-snext2 {
+ opacity: 1;
+ transform: translateX(calc(100% - 46%)) scale(0.8);
+ z-index: 0;
+ perspective: 1000px;
+}
+.slick-slide.slick-current {
+    opacity: 1;
+    transform: scale(1) translateX(calc(-100% + 109%));
+    z-index: 12;
+}
+.slick-sprev {
+  opacity: 1;
+  transform: translateX(calc(-100% + 69%)) scale(0.9);
+}
+
+.slick-sprev2 {
+  opacity: 1;
+  transform: translateX(calc(-100% + 38%)) scale(0.8);
+}
+
+.test {
+  display: block;
+  width:320px ;
+  height: 438px;
+  /* background: #c00;
+  box-shadow: inset 0px 0px 0px 3px #000 */
+  border-radius: 10px !important;
+  overflow: hidden;
+  /* padding: 20px ; */
+  &:hover{
+    cursor: pointer;
+  }
+  img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover;
+  }
+}
+.slick-slide.slick-active{
+    width: auto !important;
+}
+.slide_text{
+    position: absolute !important;
+    top: 4%;
+    left: 10px;
+    right: 10px;
+    bottom: 4%;
+    width: 300px;
+    height: 92%;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+}
+.slide_text.hillslide:after{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.62%, rgba(0, 0, 0, 0.6) 84.36%) !important;
+
+}
+.slide_text:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+       background: linear-gradient(180deg, rgba(5, 30, 89, 0) 70.03%, rgba(5, 30, 89, 0.7) 80.14%);
+        z-index: 20;
+}
+.popular_destination_main{
+    margin-top: -40px ;
+}
+.fourday{
+    margin-top: 15px ;
+    width: fit-content;
+    p{
+        font-size: 24px ;
+        font-weight: 500 ;
+        color: #FFFFFF ;
+        font-style: italic ;
+        background-color: #051E59 ;
+        padding:2px 20px 2px 10px;
+        clip-path: polygon(100% 0, 85% 49%, 100% 100%, 0 100%, 0 0);
+    }
+}
+.rev-btm-txt{
+    position: absolute;
+    z-index:22;
+    color: #FFFFFF;
+    bottom: 10px ;
+    padding: 0 10px;
+    p{
+        font-size: 22px ;
+        font-weight: 600 ;
+        max-width: 50% ;
+        min-width: 50% ;
+        font-style: italic;
+    }
+    .call-now{
+        width: 50% ;
+        text-align: right;
+       a{
+        width: auto ;
+        background: linear-gradient(180deg, #FD5D68 0%, #F62053 100%);
+        padding: 7px 15px ;
+        border-radius: 10px ;
+        font-size: 16px ;
+        font-weight: 500 ;
+        margin-bottom: 0px ;
+        display: inline-block;
+       }
+
+    }
+}
+.rev_slide.slick-center .call-now a{
+    font-size: 20px ;
+}
+.why-choose{
+    font-size: 28px ;
+    font-weight: 600 ;
+    color: #002374;
+    margin-bottom: 15px ;
+}
+.spiritual-head{
+    font-size: 20px ;
+    font-weight: 600 ;
+    color: #002374 ;
+    margin-bottom: 15px ;
+}
+.hbz-lft-txt-sec{
+    p{
+        font-size: 18px ;
+        font-weight: 400 ;
+        color: #000000 ;
+        margin-bottom: 20px ;
+        text-align: justify;
+    }
+}
+.with-elephant{
+    width: 100% ;
+    img{
+        width: 100% ;
+    }
+}
+.landing-sec{
+    padding: 100px 0 15px 0;
+}
+.terms{
+    font-size: 10px ;
+    font-weight: 400 ;
+    color: #505050 ;
+}
+
+
+@media screen and (max-width:768px) {
+     .slide4 .owl-nav button{
+      width: 30px ;
+      height: 60px ;
+  }
+  .slide4 .owl-next{
+      img{
+          width: 5px 10px !important;
+      }
+  }
+  .slide4 .owl-nav img.nav-btn {
+      width: 8px; /* smaller on mobile */
+    }
+    .slide4 .owl-nav button.owl-next {
+      right: -1px;
+  }
+  .banner-down-slide {
+    margin-top: 10px;
+}
+.one-land-txt {
+    p {
+        font-size: 22px;
+    }
+}
+.slide-city-name {
+    p {
+        font-size: 12px;
+    }
+}
+.divine-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.divine-txt {
+    p {
+        font-size: 12px;
+    }
+}
+.travel-txt {
+    p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+.travel-sec-inner{
+    width: 100% ;
+}
+.travel-sec-main{
+    padding: 0px ;
+}
+.wonder-inner{
+    height: auto ;
+}
+.mid-line{
+    left: 50% ;
+}
+.travel-place{
+    font-size: 15px ;
+}
+.why-choose{
+    font-size: 18px ;
+}
+.hbz-lft-txt-sec {
+    p {
+        font-size: 12px;
+        margin-bottom: 20px ;
+    }
+}
+.spiritual-head {
+    font-size: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+/* landing-page-2 */
+.explore-varanasi-img{
+    width: 100% ;
+    img{
+        width: 100% ;
+    }
+}
+.varansi{
+    color: #002374 ;
+}
+.varanasi-txt{
+   p{
+     font-size: 18px ;
+    font-weight: 400 ;
+    color: #002374 ;
+    margin-bottom: 30px ;
+   }
+}
+
+ .popular-flight-slide .item{
+    box-shadow: 0px -1px 8.4px -1px #00000040;
+      height: 100% ;
+      background-color: white ;
+  }
+    .popular-flight-slide .owl-stage-outer{
+      height: 100% ;
+  }
+  .popular-flight-slide .owl-stage-outer {
+    padding: 10px 0;
+}
+.popular-flight-slide .owl-nav button{
+      width: 48px !important;
+      height: 48px !important;
+      border-radius: 50% !important;
+     background: linear-gradient(180deg, rgba(15, 104, 222, 0.4) 0%, rgba(173, 206, 249, 0.2) 100%) !important;
+     box-shadow: 0px 0px 4px 0px #00000026;
+     border: 1px solid;
+     border: 1px solid #EAF2FE33;
+  }
+  .popular-flight-slide .owl-nav button.owl-prev{
+      position: absolute;
+      left: 0px ;
+      display: none ;
+  }
+  .popular-flight-slide .owl-nav button.owl-next{
+      position: absolute;
+      right: -60px ;
+  }
+
+  .popular-flight-slide .slider-img{
+    img{
+        border-radius: 10px ;
+        overflow: hidden;
+    }
+  }
+  .flt-slide-txt{
+    padding: 10px ;
+    .flt-dep-name{
+        font-size: 18px ;
+        font-weight: 600 ;
+        color: #323232 ;
+        display: flex ;
+        justify-content: flex-start ;
+        align-items: center;
+        gap: 10px ;
+        img{
+            max-width: 20px ;
+        }
+    }
+  }
+.flt-date{
+    font-size: 14px ;
+    font-weight: 500 ;
+    color: #323232;
+}
+.pricetxt{
+    font-size: 10px ;
+    font-weight: 400 ;
+    color: #323232 ;
+}
+.slideprice{
+    font-size: 24px ;
+    line-height: 24px ;
+    font-weight: 700 ;
+    color: #0E821D ;
+}
+.book-now{
+    a{
+        font-size: 18px ;
+        font-weight: 400 ;
+        color: #FFFFFF ;
+        background-color: #0F68DE ;
+        border-radius: 8px ;
+        padding: 5px 15px ;
+    }
+}
+.flt-slide-btm{
+    border-top: 1px solid #EAF1FF;
+    padding-top: 20px ;
+}
+.attract-heading{
+    font-size: 36px ;
+    font-weight: 600 ;
+    color: #002374 ;
+    margin-bottom: 30px ;
+    width: fit-content ;
+    position: relative;
+    &:after{
+        width: 90% ;
+        height: 6px ;
+        border-radius: 10px ;
+        background: linear-gradient(90deg, #0F68DE 2.6%, #D3E0FF 100%) ;
+        content: '';
+         filter: blur(5px);
+        position: absolute ;
+        bottom: -15px ;
+        left: 0 ;
+    }
+}
+.attract-txt{
+    p{
+        font-size: 20px ;
+        font-weight: 400 ;
+        color: #000000 ;
+        margin-bottom: 50px ;
+    }
+}
+
+
+/* vertical-selider-start */
+ .section {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  .main-swiper {
+    width: 100vw;
+    height: 100vh;
+  }
+  .left-swiper {
+    height: 100%;
+  }
+
+    .left-fixed-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0 ;
+    width: 465px;
+    height: 80vh;
+   background: linear-gradient(90deg, rgba(0, 35, 116, 0.72) 34.34%, rgba(86, 136, 251, 0.72) 100%);
+    z-index: 10;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+ 
+
+  .sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+  }
+  .unfix-bottom {
+    position: absolute !important;
+    top: auto !important;
+    bottom: 0 !important;
+  }
+  .slide-txt{
+    width: 100% ;
+    height: 100% ;
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: center ;
+    color: white ;
+  }
+  .swiper-slide{
+    width: 100% ;
+    cursor: pointer ;
+    img{
+        width: 100% ;
+    }
+  }
+  .slide-txt{
+   .slide-head{
+    font-size: 24px ;
+    font-weight: 600 ;
+    text-decoration: underline;
+    text-underline-offset: 5px ;
+   }
+   p{
+    font-size: 14px ;
+    font-weight: 400 ;
+    span{
+        font-weight: 600 ;
+    }
+   }
+  }
+  .slide-txt-inner{
+    padding: 20px;
+  }
+
+  /* vertical-slider-end */
+
+
+@media screen and (max-width:768px) {
+    .varanasi-txt {
+    p {
+        font-size: 12px;
+    }
+}
+.popular-flight-slide .owl-nav button.owl-next{
+    right: -10px ;
+}
+.popular-flight-slide .owl-nav button{
+    background-color: #0f68de !important;
+    img{
+        filter: brightness(20);
+    }
+}
+.popular-flight-slide .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 44%;
+}
+.flt-slide-txt {
+    .flt-dep-name {
+        font-size: 16px;
+    }
+}
+.flt-date {
+    font-size: 12px;
+}
+.slideprice {
+    font-size: 20px;
+}
+.book-now {
+    a {
+        font-size: 15px;
+    }
+}
+.attract-txt {
+    p {
+        font-size: 12px;
+        margin-bottom: 22px;
+    }
+}
+.attract-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #002374;
+    margin-bottom: 30px;
+    width: fit-content;
+    position: relative;
+}
+}
+
+
+
+
+
+
+/* hill-station-section-start */
+
+.readymountainair{
+    font-size: 36px ;
+    font-weight: 600 ;
+    color: #FFFFFF ;
+    position: relative;
+    margin-bottom: 40px ;
+    &:after{
+        width: 140px ;
+        height: 3px ;
+        position: absolute ;
+        bottom:  -10px ;
+        left: 0 ;
+        content: '';
+    background: linear-gradient(89.99deg, rgba(247, 40, 86, 0.76) -0.02%, rgb(255, 255, 255) 167.5%);
+
+
+    }
+}
+.nexthill{
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: #FFFFFF ;
+    margin-bottom: 50px ;
+}
+.mountain-inner{
+    background-image: url(../../resources/images/hillstation/hillbg.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    height: 420px ;
+}
+.mountainbg{
+    background-image: url(../../resources/images/yatra/mountainbg.png) !important;
+}
+.yogawithsun{
+   background-image: url(../../resources/images/yoga/yogawithsun.png) !important;  
+}
+.tigerbg{
+   background-image: url(../../resources/images/wildlife/tigerbg.png) !important;  
+}
+.mountain-txt{
+    padding-top:100px ;
+}
+.callnumber{
+    border-left: 1px solid white ;
+    padding-left: 10px ;
+    margin-left: 10px ;
+    a{
+        font-size: 35px ;
+        font-weight: 700 ;
+        color: #FFFFFF ;
+        text-decoration: none ;
+    }
+}
+.callbg{
+    width: fit-content;
+    padding: 2px 4px ;
+    border-radius: 10px ;
+    background: linear-gradient(180deg, #FD5D68 0%, #F62053 100%);
+}
+.wonder-inner.hillstation{
+background-image: url(../../resources/images/hillstation/hillstationbg.png) !important;
+}
+.wonder-inner.yatrabg{
+background-image: url(../../resources/images/yatra/yatrabg.png) !important;
+}
+.wildlife{
+background-image: url(../../resources/images/hillstation/hillstationbg.png) !important;
+}
+.wonder-inner.yatrabg{
+background-image: url(../../resources/images/wildlife/wildlifebg.png) !important;
+}
+
+@media screen and (max-width:768px) {
+    .readymountainair {
+        font-size: 20px ;
+        margin-bottom: 25px ;
+    }
+    .mountain-txt{
+        padding-top: 0px ;
+    }
+    .nexthill {
+        font-size: 12px;
+    }
+    .call-icons{
+        img{
+            width: 12px ;
+        }
+    }
+    .callnumber {
+        a {
+            font-size: 20px;
+        }
+    }
+    .callbg{
+        border-radius: 5px ;
+    }
+    .nexthill{
+        margin-bottom: 20px ;
+    }
+    .mountain-inner{
+        height: auto ;
+        padding: 20px 0;
+    }
+}
+
+/* hill-station-section-end */
+
+
+
+.wildlife-txt{
+ padding-top: 60px;
+}
+@media screen and (max-width:768px) {
+  .wildlife-txt{
+ padding-top: 0px;
+}  
+}
