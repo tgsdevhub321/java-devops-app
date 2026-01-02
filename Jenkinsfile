@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+
         stage('Build with Maven') {
             steps {
                 sh 'mvn clean package'
@@ -13,6 +14,19 @@ pipeline {
                 sh 'docker build -t java-devops-app:latest .'
             }
         }
+
+        stage('Deploy to App Server') {
+            steps {
+                sh '''
+                ssh -o StrictHostKeyChecking=no ubuntu@172.31.18.38 "
+                docker stop java-app || true
+                docker rm java-app || true
+                docker run -d --name java-app -p 8080:8080 java-devops-app:latest
+                "
+                '''
+            }
+        }
+
     }
 }
 
