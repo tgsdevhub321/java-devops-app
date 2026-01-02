@@ -128,7 +128,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="mb-4 text-start">
-                <h5 class="text-secondary">Easy and Fast </h5>
+                <h5 class="text-secondary">123Easy and Fast </h5>
                 <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Discover & Book Your Next Destination with FaresCrew</h3>
               </div>
               <div class="d-flex align-items-start mb-3">
@@ -232,5 +232,6 @@
 
 
   </body>
+
 
 </html>
