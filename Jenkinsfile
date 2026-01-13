@@ -3,15 +3,24 @@ pipeline {
 
     stages {
 
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/tgsdevhub321/java-devops-app.git'
+            }
+        }
+
         stage('Build with Maven') {
             steps {
                 sh 'mvn clean package'
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build & Push Docker Image') {
             steps {
-                sh 'docker build -t java-devops-app:latest .'
+                sh '''
+                docker build -t tgsdevops/java-devops-app:latest .
+                docker push tgsdevops/java-devops-app:latest
+                '''
             }
         }
 
@@ -19,14 +28,13 @@ pipeline {
             steps {
                 sh '''
                 ssh -o StrictHostKeyChecking=no ubuntu@172.31.18.38 "
+                docker pull tgsdevops/java-devops-app:latest
                 docker stop java-app || true
                 docker rm java-app || true
-                docker run -d --name java-app -p 8080:8080 java-devops-app:latest
+                docker run -d --name java-app -p 8080:8080 tgsdevops/java-devops-app:latest
                 "
                 '''
             }
         }
     }
 }
-
-
