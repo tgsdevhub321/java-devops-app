@@ -134,7 +134,7 @@
               <div class="d-flex align-items-start mb-3">
                
                 <div class="flex-1">
-                  <p class="mb-0">Planning your next trip is easier with FaresCrew. Our platform brings together a wide selection of flights at competitive prices, giving you access to multiple airlines in one convenient place. You can instantly compare options and choose the best one without the hassle of searching across different sites.</p>
+                  <p class="mb-0">  singhhPlanning your next trip is easier with FaresCrew. Our platform brings together a wide selection of flights at competitive prices, giving you access to multiple airlines in one convenient place. You can instantly compare options and choose the best one without the hassle of searching across different sites.</p>
                 </div>
               </div>
               <div class="d-flex align-items-start mb-3">
@@ -235,5 +235,6 @@
 
 
 </html>
+
 
 
