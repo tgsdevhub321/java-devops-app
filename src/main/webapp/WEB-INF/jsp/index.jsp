@@ -14,7 +14,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-      <title>${homeTitle}</title>
+      <title>${homeTitle}123</title>
       <meta name="DESCRIPTION" content="${description}" />
       <link rel="canonical" href="${canonicalUrl}" />
 	    <jsp:include page="common/common.jsp" />
@@ -235,4 +235,5 @@
 
 
 </html>
+
 
