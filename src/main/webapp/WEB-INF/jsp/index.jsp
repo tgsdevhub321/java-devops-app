@@ -140,7 +140,7 @@
               <div class="d-flex align-items-start mb-3">
                 
                 <div class="flex-1">
-                  <p class="mb-0">bcdWhether you're traveling for business or a personal getaway, FaresCrew helps you find the most suitable route, schedule, and fare with a smooth and straightforward search process. Everything you need to plan your journey is available in just a few clicks.</p>
+                  <p class="mb-0">bcd Whether you're traveling for business or a personal getaway, FaresCrew helps you find the most suitable route, schedule, and fare with a smooth and straightforward search process. Everything you need to plan your journey is available in just a few clicks.</p>
                 </div>
               </div>
               <div class="d-flex align-items-start mb-3">
@@ -235,6 +235,7 @@
 
 
 </html>
+
 
 
 
